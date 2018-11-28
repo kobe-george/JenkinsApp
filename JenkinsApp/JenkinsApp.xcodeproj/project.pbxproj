@@ -13,6 +13,7 @@
 		5E3474D221AC7765007F2D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3474D121AC7765007F2D56 /* Assets.xcassets */; };
 		5E3474D521AC7765007F2D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3474D321AC7765007F2D56 /* LaunchScreen.storyboard */; };
 		5E3474E021AC7766007F2D56 /* JenkinsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3474DF21AC7766007F2D56 /* JenkinsAppTests.swift */; };
+		5EAEC27521AD6D0A006AD093 /* JenkinsRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEC27421AD6D0A006AD093 /* JenkinsRequester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5E3474DB21AC7766007F2D56 /* JenkinsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3474DF21AC7766007F2D56 /* JenkinsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsAppTests.swift; sourceTree = "<group>"; };
 		5E3474E121AC7766007F2D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAEC27421AD6D0A006AD093 /* JenkinsRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsRequester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				5E3474CA21AC7764007F2D56 /* AppDelegate.swift */,
 				5E3474CC21AC7764007F2D56 /* ViewController.swift */,
+				5EAEC27421AD6D0A006AD093 /* JenkinsRequester.swift */,
 				5E3474CE21AC7764007F2D56 /* Main.storyboard */,
 				5E3474D121AC7765007F2D56 /* Assets.xcassets */,
 				5E3474D321AC7765007F2D56 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E3474CD21AC7764007F2D56 /* ViewController.swift in Sources */,
+				5EAEC27521AD6D0A006AD093 /* JenkinsRequester.swift in Sources */,
 				5E3474CB21AC7764007F2D56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

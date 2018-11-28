@@ -5,12 +5,25 @@
 //  Created by George Gomes on 26/11/18.
 //  Copyright © 2018 George Gomes. All rights reserved.
 //
-
+import Foundation
 import XCTest
+
 @testable import JenkinsApp
 
 class JenkinsAppTests: XCTestCase {
-
+    
+    func testNameAppTrue() {
+        let requester = JenkinsRequester()
+        let name = requester.getAppName()
+        XCTAssertTrue(name == "JenkinsApp")
+    }
+    
+    func testNameApp() {
+        let requester = JenkinsRequester()
+        let name = requester.getAppName()
+        XCTAssertFalse(name == "PP")
+    }
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
