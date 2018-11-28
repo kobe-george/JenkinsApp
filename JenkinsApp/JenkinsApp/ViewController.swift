@@ -9,10 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    
-    let url = "/Users/George/.fastlane/bin/fastlane custom_lane"
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
